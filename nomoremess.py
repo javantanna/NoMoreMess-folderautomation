@@ -30,7 +30,7 @@ def get_folder(ext,directory):
     for folder,extensions in directory.items():
         if ext in extensions:
             return folder
-        return 'Other'
+    return 'Other'
 
 def start(directory):
 
